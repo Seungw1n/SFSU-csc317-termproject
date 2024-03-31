@@ -1,0 +1,41 @@
+button {
+    position: fixed;
+    right: 0;
+    left: 0;
+    color: #fff;
+    background-color: #47C83E;
+    border-color: #47C83E;
+    display: inline-block;
+    margin: 20px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
+}
+
+#gif-storage {
+    width: 800px;
+    margin: auto;
+    display: grid;
+    gap: 2px 2px;
+    justify-items: center;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(4, 200px);
+    grid-auto-columns: repeat(4, 200px);
+    grid-auto-rows: repeat(4, 200px);
+}

@@ -1,0 +1,34 @@
+img {
+    width: 650px;
+    height: 650px;
+}
+
+.menu {
+    width: 100px;
+    height: 50px;
+    background-color: #cccccc;
+}
+
+.variable {
+    width: 150px;
+}
+
+#container {
+    width: 1000px;
+    margin: 30px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100px 150px 100px 150px 100px 150px;
+    grid-template-rows: 30px 650px 30px;
+    gap: 20px;
+}
+
+#img {
+    grid-column: 2 / 7;
+    text-align: center;
+}
+
+#des {
+    grid-column: 2 / 7;
+    text-align: center;
+}

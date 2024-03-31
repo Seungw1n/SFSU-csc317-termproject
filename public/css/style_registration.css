@@ -1,0 +1,50 @@
+input {
+    width: 500px;
+    height: 30px;
+    padding: 12px;
+    margin: 8px;
+    border: solid 1px gray;
+}
+
+button {
+    width: 400px;
+    height: 50px;
+    padding: 12px;
+    text-align: center;
+    background-color: #47C83E;
+    border: 0px;
+}
+
+fieldset {
+    border: 0px;
+}
+
+#container {
+    width: 700px;
+    margin: 50px;
+    text-align: center;
+}
+
+header {
+    width: 700px;
+    padding: 100px 0px 0px 0px;
+    margin: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.checkbox {
+    width: 20px;
+    min-width: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #F6F6F6;
+}
+
+.checkbox {
+    text-align: left;
+}
